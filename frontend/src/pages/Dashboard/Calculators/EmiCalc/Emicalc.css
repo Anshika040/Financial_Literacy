@@ -1,0 +1,112 @@
+/* Container for the entire calculator */
+.calc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  color: black;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Container for the calculator application */
+.calApp {
+  width: 100%;
+  max-width: 900px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: black;
+}
+
+/* Heading for the calculator */
+.calHeading {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #3f51b5;
+  margin-bottom: 20px;
+}
+
+/* Container for each slider */
+.slider-container {
+  margin-bottom: 30px; /* Increased margin for better spacing */
+  padding: 10px; /* Added padding for inner spacing */
+  border: 1px solid #ddd; /* Optional: border to distinguish each section */
+  border-radius: 8px; /* Optional: rounded corners for a smoother look */
+  background-color: black; /* Optional: background color to distinguish sections */
+}
+
+/* Styling for the sliders */
+.slider {
+  color: #3f51b5;
+  height: 10px;
+  margin-top: 10px; /* Adjusted margin for better spacing */
+}
+
+.slider .MuiSlider-thumb {
+  height: 25px;
+  width: 25px;
+  background-color: white;
+  border: 3px solid #3f51b5;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.slider .MuiSlider-thumb:hover {
+  transform: scale(1.2);
+}
+
+.slider .MuiSlider-track {
+  height: 10px;
+  border-radius: 4px;
+  background: linear-gradient(135deg, #3f51b5, #2196f3);
+}
+
+.slider .MuiSlider-rail {
+  height: 10px;
+  border-radius: 4px;
+  background-color: #e0e0e0;
+}
+
+/* Container for the table */
+.table-container {
+  margin-top: 20px;
+  background: linear-gradient(135deg, #ffffff 0%, #9aa8eb 100%);
+}
+
+.table-con {
+  background-color: #002147;
+}
+
+/* Table details */
+.table-details {
+  width: 100%;
+}
+
+/* Pie chart styling */
+.pie-chart {
+  width: 90%;
+  height: 100%;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .calApp {
+    padding: 10px;
+  }
+
+  .calHeading {
+    font-size: 20px;
+  }
+
+  .slider-container {
+    margin-bottom: 15px;
+  }
+
+  .table-container {
+    margin-top: 15px;
+  }
+}

@@ -1,0 +1,43 @@
+.income-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .income-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* background: linear-gradient(135deg, #ffffff 0%, #9aa8eb 100%); */
+    background: rgba(19, 39, 83, 0.75);
+    height: 650px;
+    width: 500px; /* Adjust width to accommodate the image */
+   
+    /* border-top: 40px solid rgba(11, 11, 69, 0.912); */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+  }
+  
+  .image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px; /* Space between image and form */
+  }
+  
+  .pointing-girl-image {
+    width: 250px; /* Adjust the size of the image */
+    height: 250px;
+    border-radius: 8px;
+  }
+  
+  .form-container {
+    width: 100%;
+    max-width: 500px;
+    margin-top: 10px;
+  }
+  

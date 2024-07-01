@@ -1,0 +1,32 @@
+.portfolio-container {
+    display: flex; /* Ensure flex container to center content */
+    flex-direction: column; /* Vertical stacking */
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    height: 100vh; /* Full viewport height */
+    
+  }
+  
+  .portfolio-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    text-align: center;
+    height: 700px;
+    width: 500px;
+    /* background-color: white;
+    border-radius: 8px; /* Rounded corners */
+    /* z */
+    /* border-top: 40px solid rgba(11, 11, 69, 0.912);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);   */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    background: rgba(19, 39, 83, 0.75);
+  } 
+  
+  .form-container {
+    width: 100%; /* Full width of the income-content box */
+  }
+  
